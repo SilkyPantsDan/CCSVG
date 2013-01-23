@@ -13,6 +13,9 @@
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
 
+#import "CCSVG.h"
+#import <MonkVG/vgext.h>
+
 #pragma mark - HelloWorldLayer
 
 // HelloWorldLayer implementation
@@ -53,7 +56,13 @@
 		// add the label as a child to this Layer
 		[self addChild: label];
 		
+        // setup the OpenVG context
+        vgCreateContextMNK( size.width, size.height, VG_RENDERING_BACKEND_TYPE_OPENGLES20 );
 		
+        CCSVGSprite *sprite;
+        sprite = [CCSVGSprite spriteWithFile:@"bird_0001.svg"];
+        sprite.position = ccpMult(ccpFromSize(size), 0.5);
+        [self addChild:sprite];
 		
 		//
 		// Leaderboards and Achievements

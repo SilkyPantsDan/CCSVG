@@ -96,8 +96,8 @@
 #pragma mark
 
 - (void)draw {
-    
-    [self optimize];
+    //GL_NO_ERROR
+//    [self optimize]; // FIXME: optimizing seems to be broken in GLES 2.0.  
     
     svg_->draw();
     

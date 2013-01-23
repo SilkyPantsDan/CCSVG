@@ -1,6 +1,6 @@
-#import <CCSVG/CCSVGAnimate.h>
-#import <CCSVG/CCSVGAnimation.h>
-#import <CCSVG/CCSVGAnimationCache.h>
-#import <CCSVG/CCSVGCache.h>
-#import <CCSVG/CCSVGSprite.h>
-#import <CCSVG/CCSVGSource.h>
+#import "CCSVGAnimate.h"
+#import "CCSVGAnimation.h"
+#import "CCSVGAnimationCache.h"
+#import "CCSVGCache.h"
+#import "CCSVGSprite.h"
+#import "CCSVGSource.h"

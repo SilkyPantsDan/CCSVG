@@ -133,8 +133,6 @@
 		FA07128716AF98FB00C733A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA07128616AF98FB00C733A1 /* AppDelegate.m */; };
 		FA07128A16AF98FB00C733A1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA07128916AF98FB00C733A1 /* HelloWorldLayer.m */; };
 		FA07128D16AF98FB00C733A1 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA07128C16AF98FB00C733A1 /* IntroLayer.m */; };
-		FA07129516AF99A600C733A1 /* bird_0001.svg.html in Resources */ = {isa = PBXBuildFile; fileRef = FA07129316AF99A600C733A1 /* bird_0001.svg.html */; };
-		FA07129616AF99A600C733A1 /* bird_0002.svg.html in Resources */ = {isa = PBXBuildFile; fileRef = FA07129416AF99A600C733A1 /* bird_0002.svg.html */; };
 		FA0712A616AF99E600C733A1 /* CCSVGAnimate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA07129B16AF99E600C733A1 /* CCSVGAnimate.mm */; };
 		FA0712A716AF99E600C733A1 /* CCSVGAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA07129D16AF99E600C733A1 /* CCSVGAnimation.mm */; };
 		FA0712A816AF99E600C733A1 /* CCSVGAnimationCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA07129F16AF99E600C733A1 /* CCSVGAnimationCache.mm */; };
@@ -143,7 +141,9 @@
 		FA0712AB16AF99E600C733A1 /* CCSVGSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0712A516AF99E600C733A1 /* CCSVGSprite.mm */; };
 		FA0712AD16AF9AAC00C733A1 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0712AC16AF9AAC00C733A1 /* boost.framework */; };
 		FA0712B016AF9ADA00C733A1 /* libMonkSVG_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0712AE16AF9ADA00C733A1 /* libMonkSVG_iOS.a */; };
-		FA0712C116AF9F2400C733A1 /* libMonkVG_iOS_OpenGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0712C016AF9F2400C733A1 /* libMonkVG_iOS_OpenGL.a */; };
+		FA0712C416B063AA00C733A1 /* bird_0001.svg in Resources */ = {isa = PBXBuildFile; fileRef = FA0712C216B063AA00C733A1 /* bird_0001.svg */; };
+		FA0712C516B063AA00C733A1 /* bird_0002.svg in Resources */ = {isa = PBXBuildFile; fileRef = FA0712C316B063AA00C733A1 /* bird_0002.svg */; };
+		FA0712C716B06F3700C733A1 /* libMonkVG_iOS_OpenGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0712C616B06F3700C733A1 /* libMonkVG_iOS_OpenGL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -409,8 +409,6 @@
 		FA07128916AF98FB00C733A1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		FA07128B16AF98FB00C733A1 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		FA07128C16AF98FB00C733A1 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		FA07129316AF99A600C733A1 /* bird_0001.svg.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bird_0001.svg.html; path = Resources/bird_0001.svg.html; sourceTree = "<group>"; };
-		FA07129416AF99A600C733A1 /* bird_0002.svg.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bird_0002.svg.html; path = Resources/bird_0002.svg.html; sourceTree = "<group>"; };
 		FA07129916AF99E600C733A1 /* CCSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSVG.h; sourceTree = "<group>"; };
 		FA07129A16AF99E600C733A1 /* CCSVGAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSVGAnimate.h; sourceTree = "<group>"; };
 		FA07129B16AF99E600C733A1 /* CCSVGAnimate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCSVGAnimate.mm; sourceTree = "<group>"; };
@@ -426,7 +424,9 @@
 		FA0712A516AF99E600C733A1 /* CCSVGSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCSVGSprite.mm; sourceTree = "<group>"; };
 		FA0712AC16AF9AAC00C733A1 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../external/MonkSVG/thirdparty/MonkVG/Frameworks/boost.framework; sourceTree = "<group>"; };
 		FA0712AE16AF9ADA00C733A1 /* libMonkSVG_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMonkSVG_iOS.a; path = "../../../../Library/Developer/Xcode/DerivedData/CCSVG-daaxnitvpzanucfvndfcqquijnlu/Build/Products/Debug-iphoneos/libMonkSVG_iOS.a"; sourceTree = "<group>"; };
-		FA0712C016AF9F2400C733A1 /* libMonkVG_iOS_OpenGL.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libMonkVG_iOS_OpenGL.a; path = "../external/MonkSVG/thirdparty/MonkVG/projects/MonkVG-iOS/build/Release-iphoneos/libMonkVG_iOS_OpenGL.a"; sourceTree = "<group>"; };
+		FA0712C216B063AA00C733A1 /* bird_0001.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = bird_0001.svg; path = Resources/bird_0001.svg; sourceTree = "<group>"; };
+		FA0712C316B063AA00C733A1 /* bird_0002.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = bird_0002.svg; path = Resources/bird_0002.svg; sourceTree = "<group>"; };
+		FA0712C616B06F3700C733A1 /* libMonkVG_iOS_OpenGL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMonkVG_iOS_OpenGL.a; path = "../../../../Library/Developer/Xcode/DerivedData/CCSVG-daaxnitvpzanucfvndfcqquijnlu/Build/Products/Debug-iphoneos/libMonkVG_iOS_OpenGL.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,8 +434,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0712C116AF9F2400C733A1 /* libMonkVG_iOS_OpenGL.a in Frameworks */,
 				FA0712B016AF9ADA00C733A1 /* libMonkSVG_iOS.a in Frameworks */,
+				FA0712C716B06F3700C733A1 /* libMonkVG_iOS_OpenGL.a in Frameworks */,
 				FA0712AD16AF9AAC00C733A1 /* boost.framework in Frameworks */,
 				FA0710FC16AF98F900C733A1 /* QuartzCore.framework in Frameworks */,
 				FA0710FE16AF98F900C733A1 /* OpenGLES.framework in Frameworks */,
@@ -455,7 +455,7 @@
 		FA0710EC16AF98F900C733A1 = {
 			isa = PBXGroup;
 			children = (
-				FA0712C016AF9F2400C733A1 /* libMonkVG_iOS_OpenGL.a */,
+				FA0712C616B06F3700C733A1 /* libMonkVG_iOS_OpenGL.a */,
 				FA0712AE16AF9ADA00C733A1 /* libMonkSVG_iOS.a */,
 				FA07110D16AF98F900C733A1 /* CCSVGExample */,
 				FA0710FA16AF98F900C733A1 /* Frameworks */,
@@ -507,8 +507,8 @@
 		FA07110E16AF98F900C733A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA07129316AF99A600C733A1 /* bird_0001.svg.html */,
-				FA07129416AF99A600C733A1 /* bird_0002.svg.html */,
+				FA0712C216B063AA00C733A1 /* bird_0001.svg */,
+				FA0712C316B063AA00C733A1 /* bird_0002.svg */,
 				FA07110F16AF98F900C733A1 /* Default.png */,
 				FA07111116AF98F900C733A1 /* Default-Landscape~ipad.png */,
 				FA07111316AF98F900C733A1 /* fps_images.png */,
@@ -962,8 +962,8 @@
 				FA07112416AF98F900C733A1 /* Icon@2x.png in Resources */,
 				FA07112716AF98F900C733A1 /* iTunesArtwork in Resources */,
 				FA07126516AF98FA00C733A1 /* ChangeLog in Resources */,
-				FA07129516AF99A600C733A1 /* bird_0001.svg.html in Resources */,
-				FA07129616AF99A600C733A1 /* bird_0002.svg.html in Resources */,
+				FA0712C416B063AA00C733A1 /* bird_0001.svg in Resources */,
+				FA0712C516B063AA00C733A1 /* bird_0002.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
