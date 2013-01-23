@@ -63,6 +63,10 @@
         sprite = [CCSVGSprite spriteWithFile:@"bird_0001.svg"];
         sprite.position = ccpMult(ccpFromSize(size), 0.5);
         [self addChild:sprite];
+        
+        CCSVGAnimation *animation;
+        animation = [CCSVGAnimation animationWithSourcesNamed:@"bird_%04d.svg" count:2 delay:1.0/7.0];
+        [sprite runAction:[CCRepeatForever actionWithAction:[CCSVGAnimate actionWithSVGAnimation:animation]]];
 		
 		//
 		// Leaderboards and Achievements
