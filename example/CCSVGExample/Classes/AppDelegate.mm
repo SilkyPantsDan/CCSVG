@@ -51,15 +51,15 @@
     [window makeKeyAndVisible];
     [self setWindow:window];
     
-    [CCDirector setDirectorType:kCCDirectorTypeDisplayLink];
+//v1    [CCDirector setDirectorType:kCCDirectorTypeDisplayLink];
     [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
     
     [[CCDirector sharedDirector] setAnimationInterval:1.0/60.0];
     [[CCDirector sharedDirector] setDisplayFPS:YES];
-    [[CCDirector sharedDirector] setDeviceOrientation:CCDeviceOrientationPortrait];
+    [[CCDirector sharedDirector] setDeviceOrientation:UIDeviceOrientationPortrait];
     [[CCDirector sharedDirector] setOpenGLView:openGLView];
     [[CCDirector sharedDirector] enableRetinaDisplay:YES];
-    [[CCDirector sharedDirector] setProjection:CCDirectorProjection2D];
+    [[CCDirector sharedDirector] setProjection:kCCDirectorProjection2D];
     
     CCScene *scene;
     scene = [CCScene node];

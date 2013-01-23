@@ -62,7 +62,7 @@
     }
     
     // disable default states
-    CC_DISABLE_DEFAULT_GL_STATES();
+//v1    CC_DISABLE_DEFAULT_GL_STATES();
     
     // handle blending
     BOOL doBlend;
@@ -97,7 +97,7 @@
     [self.source draw];
     
     // clear the transform used for drawing the swf
-    glLoadIdentity(); 
+//v1    glLoadIdentity(); 
     
     // apply the transform used for drawing children
     [self transformAncestors];
@@ -110,7 +110,7 @@
     }
     
     // enable default states
-    CC_ENABLE_DEFAULT_GL_STATES();
+//v1    CC_ENABLE_DEFAULT_GL_STATES();
     
 }
 
