@@ -2,18 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:external/cocos2d-iphone/cocos2d-ios.xcodeproj">
+      location = "group:external/MonkSVG/thirdparty/MonkVG/projects/MonkVG-iOS/MonkVG-iOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:external/MonkVG/projects/MonkVG-iOS/MonkVG-iOS.xcodeproj">
+      location = "group:CCSVGExample/CCSVGExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:external/MonkSVG/projects/MonkSVG-iOS/MonkSVG-iOS.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CCSVG.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:example/CCSVGExample.xcodeproj">
    </FileRef>
 </Workspace>

@@ -3,7 +3,7 @@
 #import "CCSVGAnimationCache.h"
 #import "CCSVGCache.h"
 #import "CCSVGSource.h"
-#import "Support/CCFileUtils.h"
+#import "CCFileUtils.h"
 
 
 #pragma mark - CCSVGAnimationCache
