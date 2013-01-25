@@ -10,6 +10,7 @@
 #import <MonkVG/openvg.h>
 #import <MonkVG/vgext.h>
 #import "CCSVGSource.h"
+#import "CCFileUtils.h"
 
 
 @interface CCSVGSource ()
@@ -77,7 +78,9 @@
 - (id)initWithFile:(NSString *)name {
 	
 	NSString *path;
-	path = [[NSBundle mainBundle] pathForResource:name ofType:nil];
+    
+    NSBundle* bundle = [CCFileUtils sharedFileUtils].bundle;
+	path = [bundle pathForResource:name ofType:nil];
     NSAssert1(path, @"Missing SVG file: %@", name);
 	
 	NSData *data;
