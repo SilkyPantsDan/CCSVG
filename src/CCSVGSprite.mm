@@ -4,8 +4,8 @@
 
 #include <MonkVG/openvg.h>
 #include <MonkVG/vgu.h>
-#include <MonkSVG/mkSVG.h>
-#include <MonkSVG/mkOpenVG_SVG.h>
+#include <mkSVG.h>
+#include <openvg/mkOpenVG_SVG.h>
 
 
 
@@ -92,7 +92,7 @@
         0, 0, 1,                                // 0, 0, 1
     };
     vgLoadMatrix(matrix);
-    
+
     // draw
     [self.source draw];
     

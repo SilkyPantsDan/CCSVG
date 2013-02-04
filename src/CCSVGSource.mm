@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Zinc Roe Design. All rights reserved.
 //
 
-#import <MonkSVG/mkOpenVG_SVG.h>
+#import <openvg/mkOpenVG_SVG.h>
 #import <MonkVG/openvg.h>
 #import <MonkVG/vgext.h>
 #import "CCSVGSource.h"
